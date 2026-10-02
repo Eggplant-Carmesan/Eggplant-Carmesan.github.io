@@ -8,3 +8,6 @@ https://eggplant-carmesan.github.io/privacy-policy.html
 
 Support:
 https://eggplant-carmesan.github.io/support.html
+
+About the Developer:
+https://eggplant-carmesan.github.io/about.html

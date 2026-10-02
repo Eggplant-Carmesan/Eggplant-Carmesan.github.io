@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About the Developer — FoxMark</title>
+  <meta name="description" content="FoxMark is a reading tracker built by one person. Meet Carmen, the developer behind the app." />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #F5EDE0;
+      color: #2E1A0E;
+      min-height: 100vh;
+      padding: 24px;
+    }
+
+    .card {
+      background: #FFFFFF;
+      border-radius: 20px;
+      padding: 40px 36px;
+      max-width: 600px;
+      width: 100%;
+      margin: 0 auto;
+      box-shadow: 0 2px 16px rgba(46, 26, 14, 0.08);
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 4px;
+    }
+
+    .tagline {
+      font-size: 14px;
+      color: #9CA3AF;
+      margin-bottom: 32px;
+    }
+
+    h1 {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 28px;
+    }
+
+    .founder {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background: #FDF8F3;
+      border-radius: 12px;
+      padding: 20px 24px;
+      margin-bottom: 28px;
+    }
+
+    .founder img {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+      display: block;
+    }
+
+    .founder-name {
+      font-size: 17px;
+      font-weight: 700;
+      color: #1F2937;
+      margin-bottom: 2px;
+    }
+
+    .founder-role {
+      font-size: 14px;
+      color: #6B7280;
+      line-height: 1.5;
+    }
+
+    .bio p {
+      font-size: 15px;
+      color: #4B5563;
+      line-height: 1.7;
+      margin-bottom: 18px;
+    }
+
+    .bio p:last-child {
+      margin-bottom: 0;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #F3F4F6;
+      margin: 32px 0;
+    }
+
+    h2 {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #1F2937;
+    }
+
+    .contact-box {
+      background: #FDF8F3;
+      border-radius: 12px;
+      padding: 24px;
+    }
+
+    .contact-box p {
+      font-size: 15px;
+      color: #4B5563;
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+
+    .email-btn {
+      display: inline-block;
+      margin-top: 4px;
+      background: #2E1A0E;
+      color: #FFFFFF;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 10px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+    }
+
+    .email-btn:hover {
+      opacity: 0.85;
+    }
+
+    .links {
+      display: flex;
+      gap: 20px;
+      margin-top: 28px;
+      flex-wrap: wrap;
+    }
+
+    .links a {
+      font-size: 14px;
+      color: #C97B4B;
+      text-decoration: none;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 480px) {
+      .card { padding: 32px 24px; }
+      .founder {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">FoxMark</div>
+    <div class="tagline">Shelves, stats, and so much more.</div>
+
+    <h1>About the Developer</h1>
+
+    <div class="founder">
+      <img src="images/carmen.jpg" alt="Carmen Ward, the developer of FoxMark" width="96" height="96" />
+      <div>
+        <div class="founder-name">Carmen Ward</div>
+        <div class="founder-role">Developer &amp; support, FoxMark</div>
+      </div>
+    </div>
+
+    <div class="bio">
+      <p>
+        I'm Carmen. I wanted one app that could do the whole thing: show me what's
+        releasing this month, track what I'm reading now, and keep the parts other
+        trackers skip, like the books I gave up on, the tropes I actually search
+        for, and the week where I only read eleven pages.
+      </p>
+      <p>
+        I've been a professional software developer for seven years, so when
+        nothing did all of that, I built it myself.
+      </p>
+      <p>
+        I ship updates most months and I answer every support email.
+      </p>
+    </div>
+
+    <hr />
+
+    <div class="contact-box">
+      <h2>Get in touch</h2>
+      <p>Questions, bugs, or ideas for the app all come straight to me.</p>
+      <a class="email-btn" href="mailto:wardcarmen91@gmail.com">wardcarmen91@gmail.com</a>
+    </div>
+
+    <div class="links">
+      <a href="support.html">Support</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+    </div>
+  </div>
+</body>
+</html>
